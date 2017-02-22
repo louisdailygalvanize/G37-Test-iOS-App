@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F13B02811E5E1EAA001C9552 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B02801E5E1EAA001C9552 /* AppDelegate.swift */; };
+		F13B02831E5E1EAA001C9552 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B02821E5E1EAA001C9552 /* ViewController.swift */; };
+		F13B02861E5E1EAA001C9552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13B02841E5E1EAA001C9552 /* Main.storyboard */; };
+		F13B02881E5E1EAA001C9552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13B02871E5E1EAA001C9552 /* Assets.xcassets */; };
+		F13B028B1E5E1EAA001C9552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13B02891E5E1EAA001C9552 /* LaunchScreen.storyboard */; };
+		F13B02961E5E1EAA001C9552 /* HairuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B02951E5E1EAA001C9552 /* HairuTests.swift */; };
+		F13B02A11E5E1EAA001C9552 /* HairuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B02A01E5E1EAA001C9552 /* HairuUITests.swift */; };
+		F13B02AF1E5E2696001C9552 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B02AE1E5E2696001C9552 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F13B02921E5E1EAA001C9552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13B02751E5E1EAA001C9552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F13B027C1E5E1EAA001C9552;
+			remoteInfo = Hairu;
+		};
+		F13B029D1E5E1EAA001C9552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13B02751E5E1EAA001C9552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F13B027C1E5E1EAA001C9552;
+			remoteInfo = Hairu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F13B027D1E5E1EAA001C9552 /* Hairu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hairu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13B02801E5E1EAA001C9552 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F13B02821E5E1EAA001C9552 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F13B02851E5E1EAA001C9552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F13B02871E5E1EAA001C9552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F13B028A1E5E1EAA001C9552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F13B028C1E5E1EAA001C9552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13B02911E5E1EAA001C9552 /* HairuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HairuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13B02951E5E1EAA001C9552 /* HairuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairuTests.swift; sourceTree = "<group>"; };
+		F13B02971E5E1EAA001C9552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13B029C1E5E1EAA001C9552 /* HairuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HairuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13B02A01E5E1EAA001C9552 /* HairuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairuUITests.swift; sourceTree = "<group>"; };
+		F13B02A21E5E1EAA001C9552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13B02AE1E5E2696001C9552 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13B027A1E5E1EAA001C9552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13B028E1E5E1EAA001C9552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13B02991E5E1EAA001C9552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F13B02741E5E1EAA001C9552 = {
+			isa = PBXGroup;
+			children = (
+				F13B027F1E5E1EAA001C9552 /* Hairu */,
+				F13B02941E5E1EAA001C9552 /* HairuTests */,
+				F13B029F1E5E1EAA001C9552 /* HairuUITests */,
+				F13B027E1E5E1EAA001C9552 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F13B027E1E5E1EAA001C9552 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13B027D1E5E1EAA001C9552 /* Hairu.app */,
+				F13B02911E5E1EAA001C9552 /* HairuTests.xctest */,
+				F13B029C1E5E1EAA001C9552 /* HairuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13B027F1E5E1EAA001C9552 /* Hairu */ = {
+			isa = PBXGroup;
+			children = (
+				F13B02801E5E1EAA001C9552 /* AppDelegate.swift */,
+				F13B02821E5E1EAA001C9552 /* ViewController.swift */,
+				F13B02AE1E5E2696001C9552 /* LoginViewController.swift */,
+				F13B02841E5E1EAA001C9552 /* Main.storyboard */,
+				F13B02871E5E1EAA001C9552 /* Assets.xcassets */,
+				F13B02891E5E1EAA001C9552 /* LaunchScreen.storyboard */,
+				F13B028C1E5E1EAA001C9552 /* Info.plist */,
+			);
+			path = Hairu;
+			sourceTree = "<group>";
+		};
+		F13B02941E5E1EAA001C9552 /* HairuTests */ = {
+			isa = PBXGroup;
+			children = (
+				F13B02951E5E1EAA001C9552 /* HairuTests.swift */,
+				F13B02971E5E1EAA001C9552 /* Info.plist */,
+			);
+			path = HairuTests;
+			sourceTree = "<group>";
+		};
+		F13B029F1E5E1EAA001C9552 /* HairuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F13B02A01E5E1EAA001C9552 /* HairuUITests.swift */,
+				F13B02A21E5E1EAA001C9552 /* Info.plist */,
+			);
+			path = HairuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13B027C1E5E1EAA001C9552 /* Hairu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13B02A51E5E1EAA001C9552 /* Build configuration list for PBXNativeTarget "Hairu" */;
+			buildPhases = (
+				F13B02791E5E1EAA001C9552 /* Sources */,
+				F13B027A1E5E1EAA001C9552 /* Frameworks */,
+				F13B027B1E5E1EAA001C9552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hairu;
+			productName = Hairu;
+			productReference = F13B027D1E5E1EAA001C9552 /* Hairu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F13B02901E5E1EAA001C9552 /* HairuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13B02A81E5E1EAA001C9552 /* Build configuration list for PBXNativeTarget "HairuTests" */;
+			buildPhases = (
+				F13B028D1E5E1EAA001C9552 /* Sources */,
+				F13B028E1E5E1EAA001C9552 /* Frameworks */,
+				F13B028F1E5E1EAA001C9552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F13B02931E5E1EAA001C9552 /* PBXTargetDependency */,
+			);
+			name = HairuTests;
+			productName = HairuTests;
+			productReference = F13B02911E5E1EAA001C9552 /* HairuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F13B029B1E5E1EAA001C9552 /* HairuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13B02AB1E5E1EAA001C9552 /* Build configuration list for PBXNativeTarget "HairuUITests" */;
+			buildPhases = (
+				F13B02981E5E1EAA001C9552 /* Sources */,
+				F13B02991E5E1EAA001C9552 /* Frameworks */,
+				F13B029A1E5E1EAA001C9552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F13B029E1E5E1EAA001C9552 /* PBXTargetDependency */,
+			);
+			name = HairuUITests;
+			productName = HairuUITests;
+			productReference = F13B029C1E5E1EAA001C9552 /* HairuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13B02751E5E1EAA001C9552 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Louis Daily III";
+				TargetAttributes = {
+					F13B027C1E5E1EAA001C9552 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QQ65W4PCQ7;
+						ProvisioningStyle = Automatic;
+					};
+					F13B02901E5E1EAA001C9552 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QQ65W4PCQ7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F13B027C1E5E1EAA001C9552;
+					};
+					F13B029B1E5E1EAA001C9552 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QQ65W4PCQ7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F13B027C1E5E1EAA001C9552;
+					};
+				};
+			};
+			buildConfigurationList = F13B02781E5E1EAA001C9552 /* Build configuration list for PBXProject "Hairu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F13B02741E5E1EAA001C9552;
+			productRefGroup = F13B027E1E5E1EAA001C9552 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13B027C1E5E1EAA001C9552 /* Hairu */,
+				F13B02901E5E1EAA001C9552 /* HairuTests */,
+				F13B029B1E5E1EAA001C9552 /* HairuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13B027B1E5E1EAA001C9552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13B028B1E5E1EAA001C9552 /* LaunchScreen.storyboard in Resources */,
+				F13B02881E5E1EAA001C9552 /* Assets.xcassets in Resources */,
+				F13B02861E5E1EAA001C9552 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13B028F1E5E1EAA001C9552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13B029A1E5E1EAA001C9552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13B02791E5E1EAA001C9552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13B02AF1E5E2696001C9552 /* LoginViewController.swift in Sources */,
+				F13B02831E5E1EAA001C9552 /* ViewController.swift in Sources */,
+				F13B02811E5E1EAA001C9552 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13B028D1E5E1EAA001C9552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13B02961E5E1EAA001C9552 /* HairuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13B02981E5E1EAA001C9552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13B02A11E5E1EAA001C9552 /* HairuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F13B02931E5E1EAA001C9552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F13B027C1E5E1EAA001C9552 /* Hairu */;
+			targetProxy = F13B02921E5E1EAA001C9552 /* PBXContainerItemProxy */;
+		};
+		F13B029E1E5E1EAA001C9552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F13B027C1E5E1EAA001C9552 /* Hairu */;
+			targetProxy = F13B029D1E5E1EAA001C9552 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F13B02841E5E1EAA001C9552 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13B02851E5E1EAA001C9552 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F13B02891E5E1EAA001C9552 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13B028A1E5E1EAA001C9552 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F13B02A31E5E1EAA001C9552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F13B02A41E5E1EAA001C9552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F13B02A61E5E1EAA001C9552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QQ65W4PCQ7;
+				INFOPLIST_FILE = Hairu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drivehairu.Hairu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F13B02A71E5E1EAA001C9552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QQ65W4PCQ7;
+				INFOPLIST_FILE = Hairu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drivehairu.Hairu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F13B02A91E5E1EAA001C9552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QQ65W4PCQ7;
+				INFOPLIST_FILE = HairuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drivehairu.HairuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hairu.app/Hairu";
+			};
+			name = Debug;
+		};
+		F13B02AA1E5E1EAA001C9552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QQ65W4PCQ7;
+				INFOPLIST_FILE = HairuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drivehairu.HairuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hairu.app/Hairu";
+			};
+			name = Release;
+		};
+		F13B02AC1E5E1EAA001C9552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QQ65W4PCQ7;
+				INFOPLIST_FILE = HairuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drivehairu.HairuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hairu;
+			};
+			name = Debug;
+		};
+		F13B02AD1E5E1EAA001C9552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QQ65W4PCQ7;
+				INFOPLIST_FILE = HairuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drivehairu.HairuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hairu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13B02781E5E1EAA001C9552 /* Build configuration list for PBXProject "Hairu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13B02A31E5E1EAA001C9552 /* Debug */,
+				F13B02A41E5E1EAA001C9552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13B02A51E5E1EAA001C9552 /* Build configuration list for PBXNativeTarget "Hairu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13B02A61E5E1EAA001C9552 /* Debug */,
+				F13B02A71E5E1EAA001C9552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F13B02A81E5E1EAA001C9552 /* Build configuration list for PBXNativeTarget "HairuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13B02A91E5E1EAA001C9552 /* Debug */,
+				F13B02AA1E5E1EAA001C9552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F13B02AB1E5E1EAA001C9552 /* Build configuration list for PBXNativeTarget "HairuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13B02AC1E5E1EAA001C9552 /* Debug */,
+				F13B02AD1E5E1EAA001C9552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F13B02751E5E1EAA001C9552 /* Project object */;
+}
